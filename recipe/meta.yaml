@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set gh_org = "danielballan" %}
 {% set gh_repo = "nbexamples" %}
 
@@ -9,10 +9,10 @@ package:
 source:
   fn: {{ gh_repo }}-v{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/v{{ version }}.tar.gz
-  sha256: f391b42ea6856d92a06fafa18ede464e400c9b2804a2a022d0b7197fd4bd4061
+  sha256: 80e7217d27583c24dffdd8011d60792bc5a797cec9fe9e9a8b4e9f0709f0ffd1
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:

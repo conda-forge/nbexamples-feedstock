@@ -33,7 +33,7 @@ test:
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
   license: BSD-3-Clause
-  summary: Conda environment and package access extension from within Jupyter
+  summary: Jupyter Notebook extension that shows a list of example notebooks for users to preview and clone
 
 extra:
   recipe-maintainers:

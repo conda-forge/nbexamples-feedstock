@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set gh_org = "danielballan" %}
 {% set gh_repo = "nbexamples" %}
 
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ gh_repo }}-v{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/v{{ version }}.tar.gz
-  sha256: 7dce4b3a37892b35e471e84700dbcd911d4abf66e04de041147f2923d2ef0b98
+  sha256: ec2d08f618ad40718932a1fe1f2ca019c8bcd9b845f4eab360e69464b76a7c99
 
 build:
   number: 0

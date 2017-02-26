@@ -11,6 +11,18 @@ Summary: Jupyter Notebook extension that shows a list of example notebooks for u
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nbexamples-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbexamples-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nbexamples-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nbexamples-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nbexamples-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nbexamples-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbexamples/badges/version.svg)](https://anaconda.org/conda-forge/nbexamples)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbexamples/badges/downloads.svg)](https://anaconda.org/conda-forge/nbexamples)
+
 Installing nbexamples
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `nbexamples` available on your pla
 ```
 conda search nbexamples --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nbexamples-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbexamples-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nbexamples-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nbexamples-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nbexamples-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nbexamples-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbexamples/badges/version.svg)](https://anaconda.org/conda-forge/nbexamples)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbexamples/badges/downloads.svg)](https://anaconda.org/conda-forge/nbexamples)
 
 
 Updating nbexamples-feedstock

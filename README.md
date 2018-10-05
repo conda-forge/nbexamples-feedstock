@@ -14,9 +14,8 @@ Summary: Jupyter Notebook extension that shows a list of example notebooks for u
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/nbexamples-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nbexamples-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/nbexamples-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nbexamples-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nbexamples-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nbexamples-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nbexamples-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nbexamples-feedstock)
 
 Current release info
 ====================

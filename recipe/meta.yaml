@@ -1,25 +1,23 @@
 {% set version = "0.3.1" %}
-{% set gh_org = "danielballan" %}
-{% set gh_repo = "nbexamples" %}
 
 package:
-  name: {{ gh_repo }}
+  name: nbexamples
   version: {{ version }}
 
 source:
-  fn: {{ gh_repo }}-v{{ version }}.tar.gz
-  url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/v{{ version }}.tar.gz
+  url: https://github.com/danielballan/nbexamples/archive/v{{ version }}.tar.gz
   sha256: ec2d08f618ad40718932a1fe1f2ca019c8bcd9b845f4eab360e69464b76a7c99
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
+  host:
     - notebook >=4.2.0
     - python
-    - setuptools
+    - pip
   run:
     - nbconvert
     - nbformat
@@ -31,8 +29,9 @@ test:
     - nbexamples
 
 about:
-  home: https://github.com/{{ gh_org }}/{{ gh_repo }}
+  home: https://github.com/danielballan/nbexamples
   license: BSD-3-Clause
+  license_file: LICENSE
   summary: Jupyter Notebook extension that shows a list of example notebooks for users to preview and clone
 
 extra:
